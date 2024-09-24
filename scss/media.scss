@@ -17,8 +17,9 @@
 			width: 80%;
 		}
 		&__btn {
-			padding: 1.5em 3em;
-			font-size: 1.4rem;
+			padding: 1em 2em;
+			// font-size: 1.4rem;
+			bottom: 10%;
 		}
 		&-mockup {
 			display: block;
@@ -28,24 +29,24 @@
 
 @media (min-width: 992px) {
 	.header {
+		position: relative;
 		&-heading {
-			font-size: 2.4rem;
-			width: 40%;
+			
+			font-size: 2rem;
+			width: 60%;
 			font-weight: 500;
 		}
 		&__btn {
-			padding: 0.5em 2em;
+			padding: 1em 2em;
+			// font-size: 1.4rem;
+			bottom: 7%;
 		}
+		
 	}
 	.section-heading {
 		font-size: 2rem;
 	}
-	.section-heading-bg {
-		margin: 0;
-		padding: 1em;
-		width: 30%;
-		margin: 0 auto;
-	}
+
 	hr {
 		margin-top: 2em;
 	}
@@ -210,7 +211,6 @@
 		.lead {
 			text-align: center;
 			margin: 0;
-		
 		}
 		&__boxes {
 			flex-direction: row;
@@ -222,6 +222,5 @@
 		&__accordion {
 			width: 800px;
 		}
-	
 	}
 }

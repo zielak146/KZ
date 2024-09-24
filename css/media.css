@@ -14,7 +14,7 @@ a:focus {
 .wrapper {
   margin: 0 auto;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1200px;
 }
 
 .section-padding {
@@ -42,7 +42,7 @@ a:focus {
 .container {
   text-align: center;
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -236,30 +236,28 @@ a:focus {
     width: 80%;
   }
   .header__btn {
-    padding: 1.5em 3em;
-    font-size: 1.4rem;
+    padding: 1em 2em;
+    bottom: 10%;
   }
   .header-mockup {
     display: block;
   }
 }
 @media (min-width: 992px) {
+  .header {
+    position: relative;
+  }
   .header-heading {
-    font-size: 2.4rem;
-    width: 40%;
+    font-size: 2rem;
+    width: 60%;
     font-weight: 500;
   }
   .header__btn {
-    padding: 0.5em 2em;
+    padding: 1em 2em;
+    bottom: 7%;
   }
   .section-heading {
     font-size: 2rem;
-  }
-  .section-heading-bg {
-    margin: 0;
-    padding: 1em;
-    width: 30%;
-    margin: 0 auto;
   }
   hr {
     margin-top: 2em;
