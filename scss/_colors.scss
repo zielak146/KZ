@@ -1,0 +1,64 @@
+$main-color: rgb(56, 182, 255);
+$viva: rgb(31, 170, 209);
+$second-color: #176b87;
+$green: #00c6cb;
+$light-blue: #5a8ded;
+$secondary-color: rgba(79, 79, 82, 0.853);
+$gray: rgb(205, 205, 205);
+$pure-white: #fff;
+$light-white: #fffefe;
+$dark: rgba(0, 0, 0, 0.6);
+$green-color: #00ffaa;
+$green-color-hover: #0fe29c;
+$shadow-color: rgb(12, 110, 48);
+
+$light-blue-gradient: linear-gradient(
+	180deg,
+	#020431d9,
+	rgba(31, 170, 209, 0.95)
+);
+$dark-blue-gradient: linear-gradient(
+	45deg,
+	rgba(2, 4, 49, 0.85),
+	rgba(66, 66, 69, 0.85)
+);
+$header-gradient: linear-gradient(
+	45deg,
+	rgba(0, 26, 66, 0.85),
+	rgba(0, 0, 0, 0.9)
+);
+$header-gradient2: linear-gradient(
+	45deg,
+	rgba(8, 31, 66, 0.75),
+	rgba(0, 0, 0, 0.7)
+);
+$header-gradient-viva: linear-gradient(
+	45deg,
+	rgba(25, 137, 172, 0.4),
+	rgba(0, 0, 0, 1)
+);
+$header-gradient-blue: linear-gradient(
+	45deg,
+	rgba(56, 182, 255, 0.65),
+	rgba(56, 182, 255, 0.85)
+);
+$secondary-gradient: linear-gradient(
+	90deg,
+	rgba(14, 27, 47, 0.874),
+	rgba(0, 9, 50, 0.858)
+);
+$purple-gradient: linear-gradient(
+	45deg,
+	rgba(190, 10, 214, 0.94),
+	rgba(68, 0, 255, 0.75)
+);
+$blue-gradient-solid: linear-gradient(
+	45deg,
+	rgba(10, 38, 98, 0.353),
+	rgb(12, 0, 64)
+);
+$light-blue-gradient-solid: radial-gradient(
+	circle at top right,
+	rgb(5, 5, 100) 0%,
+	rgb(20, 20, 20) 60%
+);
