@@ -398,14 +398,6 @@ body {
 .header .fade-in {
   opacity: 1; /* Transition to full opacity */
 }
-.header .cursor {
-  content: "";
-  position: absolute; /* Position cursor absolutely within the header */
-  left: 100%; /* Position to the right of the text */
-  margin-left: 2px; /* Space between text and cursor */
-  opacity: 1;
-  animation: blink 1s step-start infinite; /* Blinking animation */
-}
 .header__btn {
   position: absolute;
   bottom: 5%;

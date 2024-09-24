@@ -38,23 +38,23 @@ const observer = new IntersectionObserver((entries) => {
 
 hiddenElements.forEach((el) => observer.observe(el));
 
-const btn = document.querySelector('.btn');
+// const btn = document.querySelector('.btn');
 
-const btnAnimation = (e) => {
-	const y = e.clientY;
-	const x = e.clientX;
+// const btnAnimation = (e) => {
+// 	const y = e.clientY;
+// 	const x = e.clientX;
 
-	const innerY = e.target.offsetTop;
-	const innerX = e.target.offsetLeft;
+// 	const innerY = e.target.offsetTop;
+// 	const innerX = e.target.offsetLeft;
 
-	const top = y - innerY;
-	const left = x - innerX;
-	const circle = document.createElement('span');
-	circle.classList.add('circle');
-	circle.style.top = `${top}px`;
-	circle.style.left = `${left}px`;
-	e.target.appendChild(circle);
-};
+// 	const top = y - innerY;
+// 	const left = x - innerX;
+// 	const circle = document.createElement('span');
+// 	circle.classList.add('circle');
+// 	circle.style.top = `${top}px`;
+// 	circle.style.left = `${left}px`;
+// 	e.target.appendChild(circle);
+// };
 
 btn.addEventListener('click', btnAnimation);
 
