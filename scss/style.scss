@@ -13,7 +13,7 @@ body {
 	padding: 0;
 	font-family: 'Chillax', sans-serif;
 	font-weight: 500;
-	overflow: hidden;
+	
 }
 
 .nav {
@@ -43,7 +43,7 @@ body {
 		justify-content: center;
 		align-items: center;
 		gap: 2em;
-		overflow: hidden;
+		// overflow: hidden;
 	}
 	&_item {
 		position: relative;
