@@ -252,7 +252,7 @@ body {
   background: linear-gradient(45deg, rgba(0, 26, 66, 0.85), rgba(0, 0, 0, 0.9)), url("../img/6193293_3194926.jpg");
   width: 100vw;
   height: 100vh;
-  transform: translateX(100%);
+  transform: translateY(-100%);
   filter: blur(15px);
   transition: all 0.6s;
   overflow: hidden;
@@ -294,7 +294,7 @@ body {
 }
 
 .active {
-  transform: translate(0);
+  transform: translateY(0);
   filter: blur(0);
   overflow: hidden;
 }
@@ -347,10 +347,10 @@ body {
 
 @keyframes navItemsAnimation {
   from {
-    transform: translateX(200%);
+    transform: translateY(-200%);
   }
   to {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 .nav-items-animation {
