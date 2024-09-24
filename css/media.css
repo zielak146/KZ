@@ -315,9 +315,6 @@ a:focus {
   .self-assesment__questions__box-heading::before {
     display: none;
   }
-  .self-assesment__questions__box-text {
-    margin: 0;
-  }
   .self-assesment__questions__box:nth-of-type(1) {
     justify-self: center;
     align-self: start;
@@ -348,6 +345,7 @@ a:focus {
     align-items: flex-start;
     gap: 2em;
     flex-wrap: wrap;
+    padding: 0 2em;
   }
   .work__box {
     display: flex;
@@ -362,9 +360,6 @@ a:focus {
   }
   .work__box-text {
     text-align: center;
-  }
-  .work__box:nth-of-type(2) {
-    align-self: flex-start;
   }
   .about-us .lead {
     text-align: center;
