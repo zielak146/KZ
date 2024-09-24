@@ -39,16 +39,6 @@ a:focus {
   color: white;
 }
 
-.container {
-  text-align: center;
-  margin: 0 auto;
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
-
 .white-section {
   padding: 2em 1em;
   background-color: white;
