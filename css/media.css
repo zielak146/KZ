@@ -235,8 +235,13 @@ a:focus {
     font-size: 2.4rem;
     width: 80%;
   }
+  .header-logo {
+    height: 450px;
+    width: 450px;
+  }
   .header__btn {
     padding: 1em 2em;
+    font-size: 1.2rem;
     bottom: 10%;
   }
   .header-mockup {
@@ -253,8 +258,8 @@ a:focus {
     font-weight: 500;
   }
   .header__btn {
-    padding: 1em 2em;
-    bottom: 7%;
+    font-size: 0.8rem;
+    bottom: 30%;
   }
   .section-heading {
     font-size: 2rem;
@@ -341,8 +346,8 @@ a:focus {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
-    gap: 3em;
-    padding: 0 2em;
+    gap: 2em;
+    flex-wrap: wrap;
   }
   .work__box {
     display: flex;
