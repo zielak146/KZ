@@ -78,49 +78,49 @@ const addCursor = () => {
 	const cursor = document.createElement('span');
 	cursor.classList.add('cursor');
 	headerHeading.appendChild(cursor);
-  };
-  
-  // Start typing with a delay
-  setTimeout(() => {
+};
+
+// Start typing with a delay
+setTimeout(() => {
 	addCursor(); // Add the cursor before starting typing
 	writingAnimation();
-  }, startDelay);
+}, startDelay);
 
-
-
-  //ACCORDION
-  const accordion = document.querySelector('.about-us__accordion')
-const accordionBtns = document.querySelectorAll('.about-us__accordion-btn')
+//ACCORDION
+const accordion = document.querySelector('.accordion');
+const accordionBtns = document.querySelectorAll('.accordion-btn');
 
 function openAccordionItems() {
-
-	if(this.nextElementSibling.classList.contains('active')) {
-		this.nextElementSibling.classList.remove('active')
+	if (this.nextElementSibling.classList.contains('active')) {
+		this.nextElementSibling.classList.remove('active');
 	} else {
-
-		closeAccordionItem()
-		this.nextElementSibling.classList.toggle('active')
-		
+		closeAccordionItem();
+		this.nextElementSibling.classList.toggle('active');
 	}
-	
 }
 
 const closeAccordionItem = () => {
-	const allActiveItems = document.querySelectorAll('.about-us__accordion-info')
-	allActiveItems.forEach(item => item.classList.remove('active'))
-}
+	const allActiveItems = document.querySelectorAll('.accordion-info');
+	allActiveItems.forEach((item) => item.classList.remove('active'));
+};
 
-const clickOutsideAccordion = e => {
-    if (
-		e.target.classList.contains('about-us__accordion-btn') ||
-		e.target.classList.contains('about-us__accordion-info') ||
-		e.target.classList.contains('about-us__accordion-info-text')
+const clickOutsideAccordion = (e) => {
+	if (
+		e.target.classList.contains('accordion-btn') ||
+		e.target.classList.contains('accordion-info') ||
+		e.target.classList.contains('accordion-info-text')
 	)
-		return
+		return;
 
-	closeAccordionItem()
-}
+	closeAccordionItem();
+};
+accordionBtns.forEach((btn) =>
+	btn.addEventListener('click', function() {
+		console.log('Accordion button clicked:', this);
+		openAccordionItems.call(this);
+	})
+);
 
-accordionBtns.forEach(btn => btn.addEventListener('click', openAccordionItems))
 
-window.addEventListener('click', clickOutsideAccordion)
+
+window.addEventListener('click', clickOutsideAccordion);

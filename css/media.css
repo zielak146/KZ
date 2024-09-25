@@ -237,6 +237,24 @@ a:focus {
   .header-mockup {
     display: block;
   }
+  .pricing {
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(14, 27, 47, 0.874), rgba(0, 9, 50, 0.858)), url("../img/16252136_rm378-07.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pricing__boxes {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 3em;
+  }
+  .pricing__box {
+    max-width: 400px;
+  }
 }
 @media (min-width: 992px) {
   .header {
@@ -292,7 +310,16 @@ a:focus {
     justify-content: space-evenly;
     align-items: center;
   }
-  .about-us__accordion {
-    width: 800px;
-  }
+}
+.faq__boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }/*# sourceMappingURL=media.css.map */

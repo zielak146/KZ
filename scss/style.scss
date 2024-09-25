@@ -246,6 +246,9 @@ body {
 	}
 }
 
+.active {
+	display: block;
+}
 .about-us {
 	overflow: hidden;
 	background: $secondary-gradient, url('../img/16252136_rm378-07.jpg');
@@ -273,52 +276,53 @@ body {
 		align-self: center;
 		background-repeat: no-repeat;
 	}
+}
 
-	.active {
-		display: block;
+.accordion {
+	width: 100%;
+	margin: 1em;
+	// background-color: $viva;
+	border-radius: 15px;
+
+	&-box {
+		margin: 0.3em 0;
 	}
-
-	&__accordion {
+	&-btn {
+		padding: 1em 1em;
 		width: 100%;
-		// background-color: $viva;
-		border-radius: 15px;
+		font-size: 1.2rem;
+		text-align: left
+;
+		border: none;
+		border-radius: 8px;
 
-		&-box {
-			margin: 0.5em;
+		background-color: #021526;
+		color: $viva;
+		// text-transform: uppercase;
+		transition: background-color 0.3s;
+		cursor: pointer;
+		&:hover {
+			background-color: $viva;
+			color: #021526;
 		}
-		&-btn {
-			padding: 1em 1em;
-			width: 100%;
-			font-size: 1.2rem;
-			text-align: left;
-			border: none;
-			border-radius: 8px;
-
-			background-color: #021526;
-			color: $viva;
-			text-transform: uppercase;
-			transition: background-color 0.3s;
-			cursor: pointer;
-			&:hover {
-				background-color: $viva;
-				color: #021526;
-			}
-			i{
-				margin-right: 0.3em;
-			}
+		i {
+			margin-right: 0.3em;
 		}
-		&-info {
-			display: none;
-			padding: 1em 0.8em;
-			&-text {
-				color: #fbfdff;
-				font-size: 1.2rem;
-			}
-		}
-		// &__box {
-		// 	padding: 0 0.5em;
-		// }
 	}
+	&-info {
+		display: none;
+		padding: 1em 0.8em;
+		&-text {
+			color: #fbfdff;
+			font-size: 1.2rem;
+		}
+	}
+	// &__box {
+	// 	padding: 0 0.5em;
+	// }
+}
+.accordion-info.active {
+	display: block;
 }
 
 .work {
@@ -333,7 +337,7 @@ body {
 	}
 	&__box {
 		padding: 0 0.5em;
-		
+
 		&-number {
 			width: 60px;
 			height: 60px;
@@ -362,12 +366,13 @@ body {
 
 .self-assesment {
 	overflow: hidden;
-	background: $secondary-gradient, url('../img/16252136_rm378-07.jpg');
+	background-color: #021526;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
 	border-top: 2px solid $viva;
+	border-bottom: 2px solid $viva;
 	&__main {
 		&__box {
 			padding: 0 0.3em;
@@ -382,58 +387,64 @@ body {
 			}
 		}
 	}
-	&__process {
-		&__boxes {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			// gap: 1em 1em;
-			margin: 2em;
-		}
-		&-heading {
-			margin: 1em;
-			text-transform: uppercase;
-			padding: 0;
+}
+.pricing {
+	overflow: hidden;
+	background: $secondary-gradient, url('../img/16252136_rm378-07.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&__boxes {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		gap: 1em;
+	}
+	&__box {
+		// padding: 1em 0.5em;
+		background-color: $viva;
+		border-radius: 8px;
+		// border: 2px solid $viva;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		&-title {
+			// margin-top: 1em;
 			color: $viva;
 			font-size: 1.6rem;
 		}
-		&-box {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			background-color: #021526;
-			height: 200px;
-			width: 250px;
+		&-price {
+			background-color: $viva;
+			width: 100%;
 			padding: 1em;
-			&:nth-of-type(1) {
-				border-top-left-radius: 15px;
-				border-top-right-radius: 15px;
-			}
-			&:nth-of-type(5) {
-				border-bottom-left-radius: 15px;
-				border-bottom-right-radius: 15px;
-			}
-			&:nth-of-type(odd) {
-				background-color: $second-color;
-			}
-			&-icon {
+			font-size: 1.4rem;
+			color: #021526;
+			text-align: center;
+		}
+		&-info {
+			margin: 0 auto;
+			padding: 0;
+			width: 90%;
+			list-style: none;
+			&-item {
+				font-size: 1.4rem;
 				color: white;
-				font-size: 2.6rem;
-			}
-			&-text {
-				font-weight: 700;
-				color: white;
-				font-size: 1.6rem;
-				text-transform: uppercase;
-				text-align: center;
+				padding: 0.5em 0;
+				border-bottom: 1px solid $viva;
+				&:last-child {
+					border: none;
+				}
 			}
 		}
 	}
+}
 
-	hr {
-		// margin: 1rem 0;
-		width: 100vw;
-		color: $viva;
-	}
+.faq {
+	border-top: 2px solid $viva;
+	border-bottom: 2px solid $viva;
+	background-color: #021526;
 }
