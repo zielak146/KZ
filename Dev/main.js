@@ -56,7 +56,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 // 	e.target.appendChild(circle);
 // };
 
-btn.addEventListener('click', btnAnimation);
+// btn.addEventListener('click', btnAnimation);
 
 const headerHeading = document.querySelector('.header-heading');
 let inputValue = `Websites tailored to your business. `;
