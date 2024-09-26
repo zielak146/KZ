@@ -292,7 +292,7 @@ body {
   position: fixed;
   top: 20px;
   color: rgb(31, 170, 209);
-  right: 20px;
+  right: 10px;
   padding: 1em;
   background: none;
   border: 1px solid transparent;
@@ -332,6 +332,11 @@ body {
   top: 27px;
   width: 30%;
   transition-delay: 0.1s;
+}
+
+.btn-bg {
+  background-color: #000000;
+  border-radius: 15px;
 }
 
 @keyframes navItemsAnimation {
@@ -602,4 +607,12 @@ body {
   border-top: 2px solid rgb(31, 170, 209);
   border-bottom: 2px solid rgb(31, 170, 209);
   background-color: #021526;
+}
+
+.footer {
+  background-color: rgb(56, 182, 255);
+}
+.footer__text {
+  text-align: center;
+  font-size: 1.4rem;
 }/*# sourceMappingURL=style.css.map */

@@ -115,12 +115,36 @@ const clickOutsideAccordion = (e) => {
 	closeAccordionItem();
 };
 accordionBtns.forEach((btn) =>
-	btn.addEventListener('click', function() {
+	btn.addEventListener('click', function () {
 		console.log('Accordion button clicked:', this);
 		openAccordionItems.call(this);
 	})
 );
 
-
-
 window.addEventListener('click', clickOutsideAccordion);
+
+//FOOTER YEAR
+
+const footerYear = document.querySelector('.footer__year');
+const handleCurrentYear = () => {
+	const year = new Date().getFullYear();
+	footerYear.innerText = year;
+};
+
+handleCurrentYear();
+
+let scrollPos = 100;
+
+
+function checkPosition() {
+	if (window.scrollY > 0) {
+		// User is scrolling away from the top
+		navBtn.classList.add('btn-bg');
+	} else {
+		// User is at the top of the page
+		navBtn.classList.remove('btn-bg');
+	}
+}
+
+window.addEventListener('scroll', checkPosition);
+
