@@ -31,13 +31,19 @@
 		&__boxes {
 			margin-top: 2em;
 			display: flex;
-			flex-direction: row;
+			// flex-direction: row;
 			justify-content: space-evenly;
 			align-content: center;
 			gap: 3em;
 		}
 		&__box {
-			max-width: 400px;
+			&-title {
+				font-size: 2rem;
+			}
+			&-img {
+				height: 400px;
+				width: 500px;
+			}
 		}
 	}
 }
@@ -62,39 +68,7 @@
 	hr {
 		margin-top: 2em;
 	}
-	// .nav {
-	// 	position: relative;
-	// 	display: flex;
-	// 	// flex-direction: row;
-	// 	justify-content: space-between;
-	// 	align-items: start;
-	// 	height: 0;
-	// 	width: 0;
-	// 	transform: translate(0);
-	// 	filter: blur(0);
-	// 	&_items {
-	// 		background: none;
-	// 		flex-direction: row;
-	// 		align-items: start;
-	// 		padding: 1em;
-	// 		// width: 0;
-	// 	}
-	// 	&_item {
-	// 		color: $viva;
-	// 		font-size: 1.2rem;
-	// 		&::after {
-	// 			top: auto;
-	// 			bottom: 0;
-	// 			left: 10%;
-	// 			height: 2px;
-	// 			width: 80%;
-	// 			// transform-origin: left;
-	// 		}
-	// 		&:hover {
-	// 			scale: 1.2;
-	// 		}
-	// 	}
-	// }
+
 	.burger-btn {
 		opacity: 1;
 	}
@@ -139,11 +113,45 @@
 			justify-content: space-evenly;
 			align-items: center;
 		}
-		
+	}
+	.pricing {
+		&__box {
+			&-info {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: center;
+				gap: 2em;
+				&-text {
+					width: 50%;
+				}
+			}
+			&-items {
+				// text-align: left;
+				&-item {
+					text-align: left;
+				}
+			}
+			&-btn{
+				width: 30%;
+			}
+		}
 	}
 }
 
-.faq{
+.pricing {
+	&__box {
+		&-info {
+			// display: flex;
+			// flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+			gap: 2em;
+		}
+	}
+}
+
+.faq {
 	&__boxes {
 		display: flex;
 		flex-direction: row;

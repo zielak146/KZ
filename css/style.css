@@ -518,7 +518,7 @@ body {
   border: 2px solid rgb(31, 170, 209);
   color: rgb(31, 170, 209);
   border-width: 3px;
-  font-size: 1rempx;
+  font-size: 1.4rem;
   line-height: 48px;
   display: flex;
   align-items: center;
@@ -530,7 +530,7 @@ body {
   color: rgb(31, 170, 209);
 }
 .work__box-text {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -565,42 +565,82 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  gap: 1em;
+  gap: 2em;
 }
 .pricing__box {
-  background-color: rgb(31, 170, 209);
-  border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 0.5em;
 }
 .pricing__box-title {
+  margin: 1em;
+  text-align: center;
   color: rgb(31, 170, 209);
   font-size: 1.6rem;
 }
+.pricing__box-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 0.5em;
+  font-size: 1rem;
+  color: white;
+  margin: 0;
+}
 .pricing__box-price {
-  background-color: rgb(31, 170, 209);
-  width: 100%;
-  padding: 1em;
+  color: rgb(31, 170, 209);
   font-size: 1.4rem;
-  color: #021526;
+  text-transform: uppercase;
   text-align: center;
 }
-.pricing__box-info {
-  margin: 0 auto;
-  padding: 0;
-  width: 90%;
+.pricing__box-items {
+  padding: 0.3em 0;
+  display: flex;
+  flex-direction: column;
   list-style: none;
 }
-.pricing__box-info-item {
-  font-size: 1.4rem;
-  color: white;
+.pricing__box-items-item {
   padding: 0.5em 0;
-  border-bottom: 1px solid rgb(31, 170, 209);
+  color: rgb(31, 170, 209);
+  text-align: center;
+  text-transform: uppercase;
 }
-.pricing__box-info-item:last-child {
-  border: none;
+.pricing__box-img {
+  margin: 1em;
+  background-position: center;
+  background-size: contain;
+  align-self: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+}
+.pricing__box-img--first {
+  background-image: url("../img/web-designing-template.png");
+}
+.pricing__box-img--second {
+  background-image: url("../img/NicePng_responsive-web-design-png_2545629.png");
+}
+.pricing__box-btn {
+  padding: 0.8em 2em;
+  background-color: #021526;
+  border: 2px solid rgb(31, 170, 209);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s;
+  letter-spacing: 1px;
+}
+.pricing__box-btn:hover {
+  background-color: rgb(31, 170, 209);
+  color: #021526;
+}
+
+hr {
+  width: 100%;
+  color: rgb(31, 170, 209);
 }
 
 .faq {
