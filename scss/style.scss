@@ -155,7 +155,7 @@ body {
 	width: 100%;
 	overflow: hidden;
 	background: $header-gradient2,
-		url('../img/13311414_v627-aew-41-technologybackground.jpg');
+		url('../img/24382419_v627-aew-25-technologybackground.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -261,10 +261,10 @@ body {
 }
 .about-us {
 	overflow: hidden;
-	background: $secondary-gradient, url('../img/16252136_rm378-07.jpg');
-	background-size: cover;
+	background: $secondary-gradient, url('../img/6072180_3137227.jpg');
+	background-size: contain;
 	background-position: center;
-	background-repeat: no-repeat;
+	// background-repeat: no-repeat;
 
 	border-top: 2px solid $viva;
 
@@ -374,7 +374,7 @@ body {
 
 .self-assesment {
 	overflow: hidden;
-	background-color: #021526;
+	background-color: rgb(2, 21, 38);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -398,7 +398,7 @@ body {
 }
 .pricing {
 	overflow: hidden;
-	background: $secondary-gradient, url('../img/16252136_rm378-07.jpg');
+	background: $secondary-gradient, url('../img/6072180_3137227.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -444,7 +444,7 @@ body {
 			text-transform: uppercase;
 			text-align: center;
 			font-weight: 600;
-			
+
 			letter-spacing: 1px;
 		}
 		&-items {
@@ -468,6 +468,8 @@ body {
 			background-repeat: no-repeat;
 			width: 300px;
 			height: 200px;
+			transition: all 0.4s;
+
 			&--first {
 				background-image: url('../img/web-designing-template.png');
 			}
@@ -488,10 +490,10 @@ body {
 			font-weight: 500;
 			text-transform: uppercase;
 			letter-spacing: 3px;
-			
+
 			&:hover {
 				background-color: $viva;
-				
+
 				color: #021526;
 				transform: scale(1.1);
 			}
@@ -501,6 +503,51 @@ body {
 hr {
 	width: 100%;
 	color: $viva;
+}
+
+.reviews {
+	background: $secondary-gradient, url('../img/architecture-2256489_1920.jpg');
+	border-top: 2px solid $viva;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	&__box {
+		background-color: #021526;
+		position: relative;
+		margin: 2em;
+		padding: 1em;
+		border-radius: 8px;
+		// box-shadow: 13px 13px 13px #0797862e;
+		// background-color: $light-blue-gradient;
+		transition: all 0.4s;
+		&:hover {
+			transform: scale(0.9);
+		}
+		&-img {
+			position: absolute;
+
+			top: 8%;
+			left: 75%;
+			transform: translate(-50%, -50%);
+			img {
+				width: 80px;
+				height: 80px;
+				object-fit: cover;
+				border-radius: 50%;
+			}
+		}
+
+		&-quote {
+			margin-bottom: 1em;
+			font-size: 2rem;
+			color: $main-color;
+		}
+		&-text {
+			margin-bottom: 1em;
+			font-size: 1.2rem;
+			color: $viva;
+		}
+	}
 }
 
 .faq {

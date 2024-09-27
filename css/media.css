@@ -239,7 +239,6 @@ a:focus {
   }
   .pricing {
     overflow: hidden;
-    background: linear-gradient(90deg, rgba(14, 27, 47, 0.874), rgba(0, 9, 50, 0.858)), url("../img/16252136_rm378-07.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -257,6 +256,9 @@ a:focus {
   .pricing__box-img {
     height: 400px;
     width: 500px;
+  }
+  .pricing__box-img:hover {
+    transform: scale(1.1);
   }
 }
 @media (min-width: 992px) {
@@ -322,6 +324,11 @@ a:focus {
   }
   .pricing__box-info-text {
     width: 50%;
+    font-size: 1.2rem;
+  }
+  .pricing__box-items {
+    align-self: flex-start;
+    padding: 0;
   }
   .pricing__box-items-item {
     text-align: left;

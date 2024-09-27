@@ -359,7 +359,7 @@ body {
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  background: linear-gradient(45deg, rgba(8, 31, 66, 0.75), rgba(0, 0, 0, 0.7)), url("../img/13311414_v627-aew-41-technologybackground.jpg");
+  background: linear-gradient(45deg, rgba(8, 31, 66, 0.75), rgba(0, 0, 0, 0.7)), url("../img/24382419_v627-aew-25-technologybackground.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -436,10 +436,9 @@ body {
 
 .about-us {
   overflow: hidden;
-  background: linear-gradient(90deg, rgba(14, 27, 47, 0.874), rgba(0, 9, 50, 0.858)), url("../img/16252136_rm378-07.jpg");
-  background-size: cover;
+  background: linear-gradient(90deg, rgba(2, 21, 38, 0.874), rgba(0, 9, 50, 0.958)), url("../img/6072180_3137227.jpg");
+  background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
   border-top: 2px solid rgb(31, 170, 209);
 }
 .about-us__boxes {
@@ -539,7 +538,7 @@ body {
 
 .self-assesment {
   overflow: hidden;
-  background-color: #021526;
+  background-color: rgb(2, 21, 38);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -558,7 +557,7 @@ body {
 
 .pricing {
   overflow: hidden;
-  background: linear-gradient(90deg, rgba(14, 27, 47, 0.874), rgba(0, 9, 50, 0.858)), url("../img/16252136_rm378-07.jpg");
+  background: linear-gradient(90deg, rgba(2, 21, 38, 0.874), rgba(0, 9, 50, 0.958)), url("../img/6072180_3137227.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -621,6 +620,7 @@ body {
   background-repeat: no-repeat;
   width: 300px;
   height: 200px;
+  transition: all 0.4s;
 }
 .pricing__box-img--first {
   background-image: url("../img/web-designing-template.png");
@@ -649,6 +649,48 @@ body {
 
 hr {
   width: 100%;
+  color: rgb(31, 170, 209);
+}
+
+.reviews {
+  background: linear-gradient(90deg, rgba(2, 21, 38, 0.874), rgba(0, 9, 50, 0.958)), url("../img/architecture-2256489_1920.jpg");
+  border-top: 2px solid rgb(31, 170, 209);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.reviews__box {
+  background-color: #021526;
+  position: relative;
+  margin: 2em;
+  padding: 1em;
+  border-radius: 8px;
+  transition: all 0.4s;
+}
+.reviews__box:hover {
+  transform: scale(0.9);
+}
+.reviews__box-img {
+  position: absolute;
+  top: 8%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+.reviews__box-img img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.reviews__box-quote {
+  margin-bottom: 1em;
+  font-size: 2rem;
+  color: rgb(56, 182, 255);
+}
+.reviews__box-text {
+  margin-bottom: 1em;
+  font-size: 1.2rem;
   color: rgb(31, 170, 209);
 }
 

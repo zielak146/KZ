@@ -23,7 +23,7 @@
 	}
 	.pricing {
 		overflow: hidden;
-		background: $secondary-gradient, url('../img/16252136_rm378-07.jpg');
+		
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -43,6 +43,9 @@
 			&-img {
 				height: 400px;
 				width: 500px;
+				&:hover{
+					transform: scale(1.1);
+				}
 			}
 		}
 	}
@@ -124,10 +127,12 @@
 				gap: 2em;
 				&-text {
 					width: 50%;
+					font-size: 1.2rem;
 				}
 			}
 			&-items {
-				// text-align: left;
+				align-self: flex-start;
+				padding: 0;
 				&-item {
 					text-align: left;
 				}
