@@ -29,7 +29,7 @@ a:focus {
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
 }
 
 .lead {
@@ -255,7 +255,7 @@ body {
 }
 .nav_item {
   position: relative;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
   text-decoration: none;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -269,13 +269,13 @@ body {
   left: 0;
   width: 2px;
   height: 100%;
-  background-color: rgb(31, 170, 209);
+  background-color: #1faad1;
   content: "";
   transform: scale(0);
   transition: transform 0.5s;
 }
 .nav_item:hover {
-  color: rgb(31, 170, 209);
+  color: #1faad1;
   scale: 1.2;
 }
 .nav_item:hover::after {
@@ -291,7 +291,7 @@ body {
 .burger-btn {
   position: fixed;
   top: 20px;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
   right: 10px;
   padding: 1em;
   background: none;
@@ -318,7 +318,7 @@ body {
   right: 0;
   height: 3px;
   content: "";
-  background-color: rgb(31, 170, 209);
+  background-color: #1faad1;
   transition: width 0.3s;
 }
 .burger-btn__bars {
@@ -383,7 +383,7 @@ body {
   text-align: center;
   font-weight: 500;
   letter-spacing: 1px;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
   opacity: 0;
   transition: opacity 0.8s ease-in-out; /* Fade-in effect */
   display: inline-block;
@@ -407,12 +407,12 @@ body {
   position: absolute;
   bottom: 5%;
   text-decoration: none;
-  border: 2px solid rgb(31, 170, 209);
+  border: 2px solid #1faad1;
   border-radius: 8px;
   padding: 1em;
   background: #021526;
   cursor: pointer;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
   text-transform: uppercase;
   font-family: "Chillax", sans-serif;
   letter-spacing: 2px;
@@ -421,7 +421,7 @@ body {
   transition: all 0.5s;
 }
 .header__btn:hover {
-  box-shadow: 0px 2px 10px 10px rgb(31, 170, 209);
+  box-shadow: 0px 2px 10px 10px #1faad1;
 }
 @keyframes zoom {
   to {
@@ -439,7 +439,7 @@ body {
   background: linear-gradient(90deg, rgba(2, 21, 38, 0.874), rgba(0, 9, 50, 0.958)), url("../img/6072180_3137227.jpg");
   background-size: contain;
   background-position: center;
-  border-top: 2px solid rgb(31, 170, 209);
+  border-top: 2px solid #1faad1;
 }
 .about-us__boxes {
   display: flex;
@@ -475,12 +475,12 @@ body {
   border: none;
   border-radius: 8px;
   background-color: #021526;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
   transition: background-color 0.3s;
   cursor: pointer;
 }
 .accordion-btn:hover {
-  background-color: rgb(31, 170, 209);
+  background-color: #1faad1;
   color: #021526;
 }
 .accordion-btn i {
@@ -517,8 +517,8 @@ body {
 .work__box-number {
   width: 60px;
   height: 60px;
-  border: 2px solid rgb(31, 170, 209);
-  color: rgb(31, 170, 209);
+  border: 2px solid #1faad1;
+  color: #1faad1;
   border-width: 3px;
   font-size: 1.4rem;
   line-height: 48px;
@@ -529,7 +529,7 @@ body {
 }
 .work__box-heading {
   text-transform: uppercase;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
 }
 .work__box-text {
   font-size: 1.2rem;
@@ -542,15 +542,15 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-top: 2px solid rgb(31, 170, 209);
-  border-bottom: 2px solid rgb(31, 170, 209);
+  border-top: 2px solid #1faad1;
+  border-bottom: 2px solid #1faad1;
 }
 .self-assesment__main__box {
   padding: 0 0.3em;
 }
 .self-assesment__main__box-heading {
   font-size: 1.6rem;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
   margin: 0;
   text-transform: uppercase;
 }
@@ -579,7 +579,7 @@ body {
 .pricing__box-title {
   margin: 1em;
   text-align: center;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
   font-size: 1.6rem;
 }
 .pricing__box-info {
@@ -593,7 +593,7 @@ body {
   margin: 0;
 }
 .pricing__box-price {
-  color: rgb(31, 170, 209);
+  color: #1faad1;
   font-size: 1.6rem;
   text-transform: uppercase;
   text-align: center;
@@ -608,7 +608,7 @@ body {
 }
 .pricing__box-items-item {
   padding: 0.5em 0;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
   text-align: center;
   text-transform: uppercase;
 }
@@ -631,8 +631,8 @@ body {
 .pricing__box-btn {
   padding: 0.8em 2em;
   background-color: #021526;
-  border: 2px solid rgb(31, 170, 209);
-  color: rgb(31, 170, 209);
+  border: 2px solid #1faad1;
+  color: #1faad1;
   border-radius: 8px;
   cursor: pointer;
   transition: transform 0.4s;
@@ -642,19 +642,19 @@ body {
   letter-spacing: 3px;
 }
 .pricing__box-btn:hover {
-  background-color: rgb(31, 170, 209);
+  background-color: #1faad1;
   color: #021526;
   transform: scale(1.1);
 }
 
 hr {
   width: 100%;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
 }
 
 .reviews {
   background: linear-gradient(90deg, rgba(2, 21, 38, 0.874), rgba(0, 9, 50, 0.958)), url("../img/architecture-2256489_1920.jpg");
-  border-top: 2px solid rgb(31, 170, 209);
+  border-top: 2px solid #1faad1;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -691,22 +691,115 @@ hr {
 .reviews__box-text {
   margin-bottom: 1em;
   font-size: 1.2rem;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
 }
 
 .faq {
-  border-top: 2px solid rgb(31, 170, 209);
-  border-bottom: 2px solid rgb(31, 170, 209);
+  border-top: 2px solid #1faad1;
+  border-bottom: 2px solid #1faad1;
   background-color: #021526;
 }
 
+.contact {
+  background: linear-gradient(90deg, rgba(2, 21, 38, 0.874), rgba(0, 9, 50, 0.958)), url("../img/architecture-2256489_1920.jpg");
+  border-bottom: 2px solid #1faad1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact__boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact__box {
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.contact__box-text {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1em;
+  color: white;
+}
+.contact__box-info-text {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 2em 0;
+  color: white;
+}
+.contact__box-info-text i {
+  font-size: 2.4rem;
+  margin-bottom: 0.5em;
+  color: #1faad1;
+}
+
 .footer {
-  background-color: rgb(31, 170, 209);
+  position: relative;
+  width: 100%;
+  background: #021526;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .footer__text {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  color: white;
 }
 .footer__year {
   margin-right: 0.5em;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3em 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+  color: #1faad1;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  color: #1faad1;
+}
+
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 500;
+  color: #1faad1;
+}
+
+.menu__link:hover {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

@@ -142,6 +142,25 @@
 			}
 		}
 	}
+	.contact {
+		&__boxes {
+			align-items: start;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: 3em;
+		}
+		&__box {
+			width: 45%;
+
+			border-radius: 8px;
+		}
+		&__box-text {
+			padding: 2em;
+		}
+		&__box-form {
+			padding: 5em 2em;
+		}
+	}
 }
 
 .pricing {

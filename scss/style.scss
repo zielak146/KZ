@@ -556,13 +556,113 @@ hr {
 	background-color: #021526;
 }
 
+.contact {
+	background: $secondary-gradient, url('../img/architecture-2256489_1920.jpg');
+	border-bottom: 2px solid $viva;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	&__boxes {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	&__box {
+		margin-bottom: 2em;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		width: 100%;
+	}
+
+	&__box-text {
+		text-align: center;
+		font-size: 1.2rem;
+		// border: 2px solid $main-color;
+		// border-radius: 8px;
+		padding: 1em;
+		color: white;
+	}
+
+	&__box-info-text {
+		text-align: center;
+		font-size: 1.2rem;
+		margin: 2em 0;
+		color: white;
+		i {
+			font-size: 2.4rem;
+			margin-bottom: 0.5em;
+			color: $viva;
+		}
+	}
+}
+
+
+
 .footer {
-	background-color: $viva;
+	position: relative;
+	width: 100%;
+	background: #021526;
+	min-height: 100px;
+	padding: 20px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	&__text {
 		text-align: center;
-		font-size: 1.4rem;
+		font-size: 1.2rem;
+		color: white;
 	}
 	&__year {
 		margin-right: 0.5em;
 	}
+}
+
+.social-icon,
+.menu {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0.3em 0;
+	flex-wrap: wrap;
+	
+}
+
+.social-icon__item,
+.menu__item {
+	list-style: none;
+	color: $viva;
+}
+
+.social-icon__link {
+	font-size: 2rem;
+	color: #fff;
+	margin: 0 10px;
+	display: inline-block;
+	transition: 0.5s;
+	color: $viva;
+}
+.social-icon__link:hover {
+	transform: translateY(-10px);
+}
+
+.menu__link {
+	font-size: 1.2rem;
+	color: #fff;
+	margin: 0 10px;
+	display: inline-block;
+	transition: 0.5s;
+	text-decoration: none;
+	opacity: 0.75;
+	font-weight: 500;
+	color: $viva;
+}
+
+.menu__link:hover {
+	opacity: 1;
+	
 }

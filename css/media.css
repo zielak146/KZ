@@ -29,7 +29,7 @@ a:focus {
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(31, 170, 209);
+  color: #1faad1;
 }
 
 .lead {
@@ -335,6 +335,22 @@ a:focus {
   }
   .pricing__box-btn {
     width: 20%;
+  }
+  .contact__boxes {
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3em;
+  }
+  .contact__box {
+    width: 45%;
+    border-radius: 8px;
+  }
+  .contact__box-text {
+    padding: 2em;
+  }
+  .contact__box-form {
+    padding: 5em 2em;
   }
 }
 .pricing__box-info {
