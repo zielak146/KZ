@@ -226,8 +226,9 @@ body {
 		cursor: pointer;
 		color: $viva;
 		text-transform: uppercase;
-		font-family: 'Nunito', sans-serif;
-		font-weight: bold;
+		font-family: 'Chillax', sans-serif;
+		letter-spacing: 2px;
+		font-weight: 500;
 		opacity: 1;
 		transition: all 0.5s;
 
@@ -292,6 +293,7 @@ body {
 	margin: 1em;
 	// background-color: $viva;
 	border-radius: 15px;
+	transition: all 0.4s;
 
 	&-box {
 		margin: 0.3em 0;
@@ -320,14 +322,12 @@ body {
 	&-info {
 		display: none;
 		padding: 1em 0.8em;
+		transition: all 0.8s ease;
 		&-text {
 			color: #fbfdff;
 			font-size: 1.2rem;
 		}
 	}
-	// &__box {
-	// 	padding: 0 0.5em;
-	// }
 }
 .accordion-info.active {
 	display: block;
@@ -440,9 +440,12 @@ body {
 
 		&-price {
 			color: $viva;
-			font-size: 1.4rem;
+			font-size: 1.6rem;
 			text-transform: uppercase;
 			text-align: center;
+			font-weight: 600;
+			
+			letter-spacing: 1px;
 		}
 		&-items {
 			padding: 0.3em 0;
@@ -476,15 +479,21 @@ body {
 			padding: 0.8em 2em;
 			background-color: #021526;
 			border: 2px solid $viva;
-			color: white;
+			color: $viva;
 			// border: none;
 			border-radius: 8px;
 			cursor: pointer;
-			transition: all 0.4s;
-			letter-spacing: 1px;
+			transition: transform 0.4s;
+			letter-spacing: 2px;
+			font-weight: 500;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			
 			&:hover {
 				background-color: $viva;
+				
 				color: #021526;
+				transform: scale(1.1);
 			}
 		}
 	}
@@ -501,9 +510,12 @@ hr {
 }
 
 .footer {
-	background-color: $main-color;
+	background-color: $viva;
 	&__text {
 		text-align: center;
 		font-size: 1.4rem;
+	}
+	&__year {
+		margin-right: 0.5em;
 	}
 }
