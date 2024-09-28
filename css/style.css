@@ -246,7 +246,10 @@ body {
 .nav_items {
   height: 100%;
   width: 100%;
-  background: linear-gradient(45deg, rgba(0, 26, 66, 0.85), rgba(0, 0, 0, 0.9)), url("../img/6193293_3194926.jpg");
+  background: linear-gradient(45deg, rgba(2, 21, 38, 0.85), rgba(0, 0, 0, 0.9)), url("../img/7080236_3551904.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -359,7 +362,7 @@ body {
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  background: linear-gradient(45deg, rgba(8, 31, 66, 0.75), rgba(0, 0, 0, 0.7)), url("../img/24382419_v627-aew-25-technologybackground.jpg");
+  background: linear-gradient(45deg, rgba(8, 31, 66, 0.75), rgba(0, 0, 0, 0.7)), url("../img/6072180_3137227.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -436,9 +439,10 @@ body {
 
 .about-us {
   overflow: hidden;
-  background: linear-gradient(90deg, rgba(2, 21, 38, 0.874), rgba(0, 9, 50, 0.958)), url("../img/6072180_3137227.jpg");
-  background-size: contain;
+  background-image: linear-gradient(45deg, rgba(2, 21, 38, 0.85), rgba(0, 0, 0, 0.9)), url("../img/7080236_3551904.jpg");
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   border-top: 2px solid #1faad1;
 }
 .about-us__boxes {
@@ -470,11 +474,11 @@ body {
 .accordion-btn {
   padding: 1em 1em;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
   border: none;
   border-radius: 8px;
-  background-color: #021526;
+  background-color: rgb(2, 21, 38);
   color: #1faad1;
   transition: background-color 0.3s;
   cursor: pointer;
@@ -557,7 +561,8 @@ body {
 
 .pricing {
   overflow: hidden;
-  background: linear-gradient(90deg, rgba(2, 21, 38, 0.874), rgba(0, 9, 50, 0.958)), url("../img/6072180_3137227.jpg");
+  background-image: linear-gradient(45deg, rgba(2, 21, 38, 0.85), rgba(0, 0, 0, 0.9)), url("../img/7080236_3551904.jpg");
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -701,7 +706,7 @@ hr {
 }
 
 .contact {
-  background: linear-gradient(90deg, rgba(2, 21, 38, 0.874), rgba(0, 9, 50, 0.958)), url("../img/architecture-2256489_1920.jpg");
+  background: linear-gradient(45deg, rgba(2, 21, 38, 0.85), rgba(0, 0, 0, 0.9)), url("../img/architecture-2256489_1920.jpg");
   border-bottom: 2px solid #1faad1;
   background-size: cover;
   background-position: center;

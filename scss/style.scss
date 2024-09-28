@@ -32,7 +32,11 @@ body {
 	&_items {
 		height: 100%;
 		width: 100%;
-		background: $header-gradient, url('../img/6193293_3194926.jpg');
+		background: $header-gradient,
+		url('../img/7080236_3551904.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -155,7 +159,7 @@ body {
 	width: 100%;
 	overflow: hidden;
 	background: $header-gradient2,
-		url('../img/24382419_v627-aew-25-technologybackground.jpg');
+		url('../img/6072180_3137227.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -261,10 +265,10 @@ body {
 }
 .about-us {
 	overflow: hidden;
-	background: $secondary-gradient, url('../img/6072180_3137227.jpg');
-	background-size: contain;
+	background-image: $header-gradient, 	url('../img/7080236_3551904.jpg');
+	background-size: cover;
 	background-position: center;
-	// background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
 	border-top: 2px solid $viva;
 
@@ -301,12 +305,12 @@ body {
 	&-btn {
 		padding: 1em 1em;
 		width: 100%;
-		font-size: 1.2rem;
+		font-size: 1rem;
 		text-align: left;
 		border: none;
 		border-radius: 8px;
 
-		background-color: #021526;
+		background-color: rgb(2, 21, 38);
 		color: $viva;
 		// text-transform: uppercase;
 		transition: background-color 0.3s;
@@ -398,10 +402,12 @@ body {
 }
 .pricing {
 	overflow: hidden;
-	background: $secondary-gradient, url('../img/6072180_3137227.jpg');
+	background-image: $header-gradient, 	url('../img/7080236_3551904.jpg');
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+
 
 	&__boxes {
 		display: flex;
@@ -557,7 +563,7 @@ hr {
 }
 
 .contact {
-	background: $secondary-gradient, url('../img/architecture-2256489_1920.jpg');
+	background: $header-gradient, url('../img/architecture-2256489_1920.jpg');
 	border-bottom: 2px solid $viva;
 	background-size: cover;
 	background-position: center;
